@@ -29,8 +29,9 @@ int main()
  
     cout << "\nModified Array\n";
     for (int i = 0; i < n; i++)
-        cout << ptr[i] << " ";
-    return 0;
+        cout << arr[i] << " ";
+
+  delete[] arr;
  
    
    
